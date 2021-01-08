@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::namespace('App');
 Route::get('/', 'Consultant@index');
 Route::post('/store', 'Consultant@store');
