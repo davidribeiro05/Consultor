@@ -2,6 +2,16 @@
 
 @include('nav')
 
+@if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
 @section('content')
     <div class="container">
         <form action="/update" method="POST" enctype="multipart/form-data">
@@ -11,11 +21,12 @@
                 <input type="hidden" value="{{$consultant->id}}" name="id">
                 <div class="form-group col-md-4">
                     <label class="font-weight-bold" for="cpf">CPF:</label>
-                    <input type="text" class="form-control" id="cpf" name="cpf" required value="{{$consultant->cpf}}">
+                    <input type="number" class="form-control" id="cpf" name="cpf" required
+                           value="{{$consultant->cpf}}">
                 </div>
                 <div class="form-group col-md-4">
                     <label for="rg">RG:</label>
-                    <input type="text" class="form-control" id="rg" name="rg" value="{{$consultant->rg}}">
+                    <input type="number" class="form-control" id="rg" name="rg" value="{{$consultant->rg}}">
                 </div>
                 <div class="form-group col-md-2">
                     <label for="orgaoExpedidor">Órg. Exp:</label>
@@ -48,8 +59,8 @@
                     <label class="font-weight-bold" for="genero">Sexo:</label>
                     <select class="form-control" id="genero" name="genero" required>
                         <option value="{{$consultant->genero}}">{{$consultant->genero}}</option>
-                        <option value="masculino">Masculino</option>
-                        <option value="feminino">Feminino</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
                     </select>
                 </div>
             </div>

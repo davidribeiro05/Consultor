@@ -1,7 +1,5 @@
 @extends('layout')
 
-
-
 @section('content')
     @include('consultant.create')
 

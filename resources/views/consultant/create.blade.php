@@ -1,14 +1,26 @@
 @include('nav')
+
+@if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
 <form action="/store" method="POST" enctype="multipart/form-data">
     @csrf
+    <button type="submit" id="save" style="border: none;"></button>
     <div class="form-row mt-4">
         <div class="form-group col-md-4">
             <label class="font-weight-bold" for="cpf">CPF:</label>
-            <input type="text" class="form-control" id="cpf" name="cpf" required>
+            <input type="number" class="form-control" id="cpf" name="cpf" required>
         </div>
         <div class="form-group col-md-4">
             <label for="rg">RG:</label>
-            <input type="text" class="form-control" id="rg" name="rg">
+            <input type="number" class="form-control" id="rg" name="rg">
         </div>
         <div class="form-group col-md-2">
             <label for="orgaoExpedidor">Órg. Exp:</label>
@@ -23,7 +35,6 @@
             </select>
         </div>
     </div>
-
     <div class="form-row">
         <div class="form-group col-md-6">
             <label class="font-weight-bold" for="nome">Nome:</label>
@@ -36,8 +47,8 @@
         <div class="form-group col-md-3">
             <label class="font-weight-bold" for="genero">Sexo:</label>
             <select class="form-control" id="genero" name="genero" required>
-                <option>Masculino</option>
-                <option>Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
             </select>
         </div>
     </div>

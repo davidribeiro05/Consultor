@@ -10,6 +10,5 @@ class Consultant extends Model
     protected $fillable = ['cpf', 'rg', 'orgaoExpedidor', 'uf', 'nome', 'dataDeNascimento', 'genero',
         'email', 'estadoCivil', 'linkCVLattes', 'titulacao', 'instituicaoTitulacao', 'anoTitulacao'];
     public $timestamps = false;
-
 }
 

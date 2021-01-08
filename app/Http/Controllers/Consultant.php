@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ConsultantRequest;
+use App\Http\Requests\ConsultantUpdateRequest;
 use App\Models\Consultant as ConsultantModel;
 use App\Models\Uf;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
 class Consultant extends Controller
 {
@@ -19,14 +20,8 @@ class Consultant extends Controller
         ]);
     }
 
-    public function store(Request $request)
+    public function store(ConsultantRequest $request)
     {
-        $request->validate(
-            [
-                'nome' => 'required',
-                'cpf' => 'required',
-            ]
-        );
         if (ConsultantModel::create($request->all())) {
             return redirect('/')->with('success', 'Registro inserido com sucesso');
         }
@@ -43,7 +38,7 @@ class Consultant extends Controller
         ]);
     }
 
-    public function update(Request $request)
+    public function update(ConsultantUpdateRequest $request)
     {
         $consultant = ConsultantModel::find($request->id);
 
@@ -74,7 +69,5 @@ class Consultant extends Controller
             return redirect('/')
                 ->with('success', 'Registro deletado com sucesso!.');
         }
-
     }
-
 }

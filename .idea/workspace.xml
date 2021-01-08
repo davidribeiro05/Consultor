@@ -11,10 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d1c10a-ea6d-4768-8f37-924c7b7be6b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/nav.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Consultant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Consultant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Consultant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Consultant.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/consultant/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/consultant/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/consultant/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/consultant/update.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/flash-message.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/flash-message.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +197,8 @@
       <workItem from="1610054100955" duration="236000" />
       <workItem from="1610054500550" duration="15000" />
       <workItem from="1610055259238" duration="15000" />
-      <workItem from="1610056580096" duration="12737000" />
+      <workItem from="1610056580096" duration="14522000" />
+      <workItem from="1610074315743" duration="4504000" />
     </task>
     <servers />
   </component>
@@ -211,6 +215,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="293" width="424" height="140" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1610058028033">
@@ -233,9 +238,9 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="347" y="160" key="run.anything.popup/0.0.1366.729@0.0.1366.729" timestamp="1610070991414" />
-    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup" timestamp="1610064903023">
+    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup" timestamp="1610074508118">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup/0.0.1366.729@0.0.1366.729" timestamp="1610064903023" />
+    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup/0.0.1366.729@0.0.1366.729" timestamp="1610074508118" />
   </component>
 </project>
