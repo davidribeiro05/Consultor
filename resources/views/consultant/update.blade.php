@@ -1,22 +1,12 @@
 @extends('layout')
+
+@include('nav')
+
 @section('content')
     <div class="container">
         <form action="/update" method="POST" enctype="multipart/form-data">
             @csrf
-            <nav class="navbar navbar-light bg-light p-3">
-
-                <div class="d-flex justify-content-start mt-4">
-                    <a href="/" class="btn btn-lg btn-outline-secondary mr-2"><i class="far fa-file "></i></a>
-                    <button type="submit" class="btn btn-lg btn-outline-primary mr-2" id="save"
-                    "><i
-                        class="far fa-save"></i>
-                    </button>
-                    <a href="/excluir/{{$consultant->id}}" class="btn btn-lg btn-outline-danger mr-2"
-                       onclick="return confirm('Tem certeza que deseja excluir esse registro?')"><i
-                            class="fas fa-trash"></i>
-                    </a>
-                </div>
-            </nav>
+            <button type="submit" id="save" style="border: none;"></button>
             <div class="form-row mt-4">
                 <input type="hidden" value="{{$consultant->id}}" name="id">
                 <div class="form-group col-md-4">
@@ -45,7 +35,7 @@
 
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label class="font-weight-bold" for="inputEmail4">Nome:</label>
+                    <label class="font-weight-bold" for="name">Nome:</label>
                     <input type="text" class="form-control" id="nome" name="nome" required
                            value="{{$consultant->nome}}">
                 </div>
@@ -55,7 +45,7 @@
                            value="{{$consultant->dataDeNascimento}}">
                 </div>
                 <div class="form-group col-md-3">
-                    <label class="font-weight-bold" for="uf">Sexo:</label>
+                    <label class="font-weight-bold" for="genero">Sexo:</label>
                     <select class="form-control" id="genero" name="genero" required>
                         <option value="{{$consultant->genero}}">{{$consultant->genero}}</option>
                         <option value="masculino">Masculino</option>

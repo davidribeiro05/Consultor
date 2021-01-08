@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d1c10a-ea6d-4768-8f37-924c7b7be6b5" name="Default Changelist" comment="" />
+    <list default="true" id="42d1c10a-ea6d-4768-8f37-924c7b7be6b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/consultant/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/consultant/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/consultant/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/consultant/update.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +33,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -132,6 +149,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mieYU5FZH0Ovicc1AsERx7TRcz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -146,6 +164,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -175,12 +194,23 @@
       <workItem from="1610054100955" duration="236000" />
       <workItem from="1610054500550" duration="15000" />
       <workItem from="1610055259238" duration="15000" />
-      <workItem from="1610056580096" duration="11400000" />
+      <workItem from="1610056580096" duration="12737000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="293" width="424" height="140" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1610058028033">
@@ -195,14 +225,14 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="371" y="89" width="614" height="547" key="NewPhpClassDialog/0.0.1366.729@0.0.1366.729" timestamp="1610057555473" />
-    <state x="468" y="290" width="420" height="148" key="NewPhpFileDialog" timestamp="1610054210724">
+    <state x="468" y="290" width="420" height="148" key="NewPhpFileDialog" timestamp="1610070780854">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="468" y="290" width="420" height="148" key="NewPhpFileDialog/0.0.1366.729@0.0.1366.729" timestamp="1610054210724" />
-    <state x="347" y="160" key="run.anything.popup" timestamp="1610069964661">
+    <state x="468" y="290" width="420" height="148" key="NewPhpFileDialog/0.0.1366.729@0.0.1366.729" timestamp="1610070780854" />
+    <state x="347" y="160" key="run.anything.popup" timestamp="1610070991414">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="347" y="160" key="run.anything.popup/0.0.1366.729@0.0.1366.729" timestamp="1610069964661" />
+    <state x="347" y="160" key="run.anything.popup/0.0.1366.729@0.0.1366.729" timestamp="1610070991414" />
     <state x="346" y="50" width="672" height="678" key="search.everywhere.popup" timestamp="1610064903023">
       <screen x="0" y="0" width="1366" height="729" />
     </state>

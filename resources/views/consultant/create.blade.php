@@ -1,16 +1,9 @@
+@include('nav')
 <form action="/store" method="POST" enctype="multipart/form-data">
     @csrf
-    <nav class="navbar navbar-light bg-light p-3">
-        <div class="d-flex justify-content-start mt-4">
-            <a href="/" class="btn btn-lg btn-outline-secondary mr-2"><i class="far fa-file "></i></a>
-            <button type="submit" class="btn btn-lg btn-outline-primary mr-2"><i class="far fa-save"></i></button>
-            <a class="btn btn-lg btn-outline-danger mr-2"><i class="fas fa-trash"></i>
-            </a>
-        </div>
-    </nav>
     <div class="form-row mt-4">
         <div class="form-group col-md-4">
-            <label class="font-weight-bold" for="inputEmail4">CPF:</label>
+            <label class="font-weight-bold" for="cpf">CPF:</label>
             <input type="text" class="form-control" id="cpf" name="cpf" required>
         </div>
         <div class="form-group col-md-4">
@@ -33,7 +26,7 @@
 
     <div class="form-row">
         <div class="form-group col-md-6">
-            <label class="font-weight-bold" for="inputEmail4">Nome:</label>
+            <label class="font-weight-bold" for="nome">Nome:</label>
             <input type="text" class="form-control" id="nome" name="nome" required>
         </div>
         <div class="form-group col-md-3">
@@ -41,7 +34,7 @@
             <input type="date" class="form-control" id="dataDeNascimento" name="dataDeNascimento">
         </div>
         <div class="form-group col-md-3">
-            <label class="font-weight-bold" for="uf">Sexo:</label>
+            <label class="font-weight-bold" for="genero">Sexo:</label>
             <select class="form-control" id="genero" name="genero" required>
                 <option>Masculino</option>
                 <option>Feminino</option>
