@@ -12,12 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42d1c10a-ea6d-4768-8f37-924c7b7be6b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Consultant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Consultant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Consultant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Consultant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/consultant/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/consultant/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/consultant/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/consultant/update.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/flash-message.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/flash-message.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +192,7 @@
       <workItem from="1610054500550" duration="15000" />
       <workItem from="1610055259238" duration="15000" />
       <workItem from="1610056580096" duration="14522000" />
-      <workItem from="1610074315743" duration="4504000" />
+      <workItem from="1610074315743" duration="5834000" />
     </task>
     <servers />
   </component>
