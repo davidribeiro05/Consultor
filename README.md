@@ -9,6 +9,6 @@ Crud feito com o framework laravel para realizar a gestão de consultores.
 
 3º Utilize o comando o comando php artisan key:generate.
 
-4º Logo após, basta ajustar as configurações para que o Laravel se conecte com o seu banco de dados, onde o banco de dados consultor está localizado.
+4º Logo após, basta ajustar as configurações para que o Laravel se conecte com o seu banco, onde o banco de dados consultor está localizado.
 
 5º Utilize o comando php artisan serve para iniciar o servidor.
